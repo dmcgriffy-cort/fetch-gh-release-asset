@@ -55,7 +55,7 @@ if [[ -z "$ASSET_ID" ]]; then
   exit 1
 fi
 
-curl \
+curl -k \
   -J \
   -L \
   -H "Accept: application/octet-stream" \
